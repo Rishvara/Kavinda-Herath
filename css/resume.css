@@ -18,19 +18,48 @@ footer {
   background-color: #808080;
   border: none;
   color: white;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 4px 4px;
   cursor: pointer;
+  opacity: 0.8;
+
   }
 
 .button1 {border-radius: 12px;}
 
-.button2 {width: 100%}
+.button2 {width: 40%}
 
-body {
-  background-color: #000000;
+ body {
+   /* The image used */
+   background-image: url("../img/7.jpg");
+
+   /* Full height */
+   min-height: 100%;
+
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+
+ }
+
+  .footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: dimgrey;
+   color: white;
+   text-align: center;
   }
+
+      object.center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto
+    }
+

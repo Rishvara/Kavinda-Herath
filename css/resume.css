@@ -63,3 +63,8 @@ footer {
       margin-right: auto
     }
 
+.clearfix:after {
+ content: "";
+ display: table;
+ clear: both;
+ }

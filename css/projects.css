@@ -13,7 +13,7 @@ img.make-it-fit {
   }
 
 footer {
-  background-color: #f2f2f2;
+  background-color: dimgrey;
   padding: 25px;
   }
 
@@ -39,6 +39,8 @@ div.gallery img {
 div.desc {
  padding: 15px;
  text-align: center;
+  background-color: #555555;
+  opacity: 0.8;
  }
 
  {

@@ -68,10 +68,10 @@
     }
    div.mobile{
      font-size: 10px;
-     width: 70%
+     width: auto;
    }
    img.size{
-     width: 100;
+     width: 130px;
      height: auto;
    }
   }

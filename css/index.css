@@ -5,9 +5,9 @@
  body, html {
   height: 100%;
   margin: 0;
-}
 
-  .bg {
+
+
     /* The image used */
     background-image: url("../img/7.jpg");
 
@@ -35,11 +35,9 @@
     color: white;
     font-weight: bold;
     border: 3px solid #f1f1f1;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin: auto;
     z-index: 2;
+    width: 70%;
 
     padding: 20px;
     text-align: center;
@@ -66,24 +64,7 @@
     .carousel-caption {
       display: none;
     }
-   div.mobile{
-     font-size: 10px;
-     width: auto;
-   }
-   img.size{
-     width: 130px;
-     height: auto;
-   }
   }
 
-  @media (min-width: 601px) {
-   div.mobile{
-     font-size: 25px;
-     width: 100vh;
-   }
-    img.size{
-     width: 200;
-     height: auto;
-   }
-  }
+
 

@@ -95,6 +95,22 @@
       color: white;
   }
 
+        .colour{
+  color: #f2f2f2;
+}
+
+  div.bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    margin: auto;
+    z-index: 2;
+    padding: 20px;
+    text-align: center;
+  }
+
   </style>
 </head>
 
@@ -103,7 +119,11 @@
 <h2>Design and Engineering</h2>
 
 <object data="../pdf/Design and Engineering.pdf" type="application/pdf" width="100%" height="800px">
-    <p>It appears you don't have a PDF plugin for this browser you can download the CV from the above Button.</p>
+        <div class="bg-text">
+      <p class="colour">It appears you don't have a PDF plugin for this browser you can download the CV from the above Button.</p>
+      <a href="../web/viewer.html?file=../pdf/Design and Engineering.pdf" class="colour">or
+      click here look at pdf.</a>
+    </div>
 </object>
 
 <div style="padding:6px;">

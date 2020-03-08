@@ -311,12 +311,13 @@
       width: 100%;
     }
     .box{
-      height: 500px;
+      height: 300px;
       width: 90%;
     }
   }
   .w3-text-white{
     color: #f2f2f2;
+    font: bold;
   }
   .colour{
     color: ghostwhite;

@@ -217,15 +217,15 @@
     .button2 {width: 40%}
   }
  }
-  .bg-text1 {
+  .bg-text3 {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
     color: white;
     font-weight: bold;
-    border: 3px solid #f1f1f1;
+    border: 1px solid #f1f1f1;
+    width: 60%;
     margin: auto;
     z-index: 2;
-    width: 60%;
     padding: 20px;
     text-align: center;
   }

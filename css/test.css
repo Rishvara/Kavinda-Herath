@@ -217,8 +217,6 @@
     .button2 {width: 40%}
   }
  }
-
-
   .bg-text1 {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
@@ -231,7 +229,6 @@
     padding: 20px;
     text-align: center;
   }
-
   .bg-text2 {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
@@ -244,7 +241,6 @@
     padding: 20px;
     text-align: center;
   }
-
   .button {
     background-color: #808080;
     border: none;
@@ -258,15 +254,12 @@
     cursor: pointer;
     opacity: 0.8;
   }
-
   .button1 {border-radius: 12px;}
-
   object.center {
     display: block;
     margin-left: auto;
     margin-right: auto
   }
-
   .bg-text3 {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
@@ -278,55 +271,38 @@
     padding: 20px;
     text-align: center;
   }
-
-
-
-
-
-
-
-
-
-div.gallery {
- border: 1px solid #ccc;
-
- }
-
-div.gallery:hover {
- border: 1px solid #777;
- }
-
-div.gallery img {
- width: 100%;
- height: auto;
- }
-
-div.desc {
- padding: 15px;
- text-align: center;
-  background-color: #555555;
-  opacity: 0.8;
- }
-
-.responsive {
- padding: 0 6px;
- float: left;
- width: 24.99999%;
- }
-
-@media only screen and (max-width: 700px) {
- .responsive {
- width: 49.99999%;
- margin: 6px 0;
+  div.gallery {
+    border: 1px solid #ccc;
   }
- }
-
-@media only screen and (max-width: 500px) {
- .responsive {
- width: 100%;
+  div.gallery:hover {
+    border: 1px solid #777;
   }
- }
-
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: #555555;
+    opacity: 0.8;
+  }
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
   .w3-text-white{
     color: #f2f2f2;
   }

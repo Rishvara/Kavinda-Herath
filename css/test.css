@@ -316,8 +316,12 @@
       width: 100%;
     }
     .box{
-      height: auto;
-      width: 90%;
+      height: 700px;
+      width: 95%;
+    }
+    .box2{
+      height: 700px;
+      width: 95%;
     }
   }
   .w3-text-white{

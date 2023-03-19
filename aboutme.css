@@ -1,0 +1,63 @@
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  }
+
+div.fill-screen {
+  text-align: center;
+  }
+
+img.make-it-fit {
+  max-width: 100%;
+  max-height: 100%;
+  }
+
+
+@media (max-width: 600px) {
+ .carousel-caption {
+ display: none;
+   }
+ }
+
+ body {
+   /* The image used */
+   background-image: url("../img/7.jpg");
+
+   /* Full height */
+   min-height: 100%;
+
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+
+ }
+
+footer{
+  background-color: dimgrey;
+  padding: 25px;
+}
+
+
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: dimgrey;
+   color: white;
+   text-align: center;
+  }
+
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 1px solid #f1f1f1;
+    width: 90%;
+    margin: auto;
+    z-index: 2;
+    padding: 20px;
+    text-align: center;
+  }
